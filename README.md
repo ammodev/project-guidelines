@@ -12,6 +12,7 @@ Ziel ist es, dass externe Entwickler zur Verbesserung und Erweiterung des Server
    1. [Commits](#commits)
    2. [Branches](#branches)
    3. [Merge Requests](#merge-request)
+   4. [Contributors](#contributors)
 4. [Kontakt](#kontakt)
 5. [Lizenz](#lizenz)
 
@@ -113,6 +114,12 @@ Ein Merge Request muss Folgendes beinhalten:
 - **Beschreibung**: Die Beschreibung muss ausführlich sein und den Zweck der Änderung, das gelöste Problem und die vorgenommenen Anpassungen erläutern. Hier können auch relevante Issues verlinkt werden, um den Bezug zu bestehenden Problemen oder Features herzustellen.
 
 Ein **Merge Request**, der noch nicht abgeschlossen ist, kann mit dem Präfix `draft:` im Titel gekennzeichnet werden, um anzuzeigen, dass er noch in Arbeit ist und nicht gemerged werden soll. Dies signalisiert dem Team, dass der MR eine Vorschau der laufenden Arbeit ist und noch Änderungen oder Ergänzungen benötigt.
+
+### Contributors
+
+Entwickler, die zu einem Projekt der **SLNE Development Gruppe** beitragen, sind herzlich eingeladen, sich in die `CONTRIBUTORS.md` Datei des entsprechenden Projekts einzutragen, um ihre Mitwirkung zu dokumentieren.
+
+In dieser Datei kannst du deinen Namen, dein GitLab-Profil und optional eine kurze Beschreibung deiner Rolle oder deiner Beiträge vermerken. Es ist eine tolle Möglichkeit, Teil der Entwicklergemeinschaft zu werden und deine Arbeit sichtbar zu machen.
 
 ## Lizenz
 
