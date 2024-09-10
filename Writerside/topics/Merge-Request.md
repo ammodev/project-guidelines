@@ -25,7 +25,9 @@ Ein Merge Request muss Folgendes beinhalten:
   Verlinke hier auch relevante Issues, um den Bezug zu bestehenden Problemen oder
   Features herzustellen.
 
-Eine **Merge Request**, die noch nicht abgeschlossen ist, kann mit dem Präfix `draft:` im Titel gekennzeichnet werden,
-um anzuzeigen, dass sie noch in Arbeit ist und nicht gemerged werden soll.
-Dies signalisiert dem Team, dass die MR eine Vorschau der laufenden Arbeit ist und noch Änderungen oder Ergänzungen
-benötigt.
+> Eine **Merge Request**, die noch nicht abgeschlossen ist, kann mit dem Präfix `draft:` im Titel gekennzeichnet werden,
+> um anzuzeigen, dass sie noch in Arbeit ist und nicht gemerged werden soll.
+> Dies signalisiert dem Team, dass die MR eine Vorschau der laufenden Arbeit ist und noch Änderungen oder Ergänzungen
+> benötigt.
+> 
+{title="Draft Merge Requests"}
