@@ -13,8 +13,9 @@ Ziel ist es, dass externe Entwickler zur Verbesserung und Erweiterung des Server
    2. [Branches](#branches)
    3. [Merge Requests](#merge-request)
    4. [Contributors](#contributors)
-4. [Kontakt](#kontakt)
+4. [Wiki](#wiki)
 5. [Lizenz](#lizenz)
+6. [Kontakt](#kontakt)
 
 
 ## Projektstruktur
@@ -124,6 +125,28 @@ Ein **Merge Request**, der noch nicht abgeschlossen ist, kann mit dem Präfix `d
 Entwickler, die zu einem Projekt der **SLNE Development Gruppe** beitragen, sind herzlich eingeladen, sich in die `CONTRIBUTORS.md` Datei des entsprechenden Projekts einzutragen, um ihre Mitwirkung zu dokumentieren.
 
 In dieser Datei kannst du deinen Namen, dein GitLab-Profil und optional eine kurze Beschreibung deiner Rolle oder deiner Beiträge vermerken. Es ist eine tolle Möglichkeit, Teil der Entwicklergemeinschaft zu werden und deine Arbeit sichtbar zu machen.
+
+## Wiki
+
+Jedes Projekt in diesem Repository enthält ein zugehöriges Wiki. Das Wiki dient als zentrale Anlaufstelle für die Dokumentation und hilft dabei, wichtige Informationen schnell und einfach zu finden, ohne im Code nach Details suchen zu müssen.
+
+### Zweck des Wikis
+
+- **Zugängliche Dokumentation:** Alle relevanten Informationen wie Befehle, Berechtigungen und andere wichtige Details werden hier festgehalten.
+- **Aktualisierungen:** Änderungen und Ergänzungen zur Dokumentation können direkt im Wiki vorgenommen werden, sodass immer die aktuellsten Informationen zur Verfügung stehen.
+- **Benutzerfreundlichkeit:** Das Wiki ermöglicht eine klare und strukturierte Darstellung der Dokumentation, wodurch die Einarbeitung und das Verständnis der Projekte erleichtert werden.
+
+### Inhalte des Wikis
+
+- **Befehle:** Eine Übersicht aller wichtigen Befehle und wie sie verwendet werden.
+- **Berechtigungen:** Informationen zu den verschiedenen Berechtigungen und deren Konfiguration.
+- **Weitere Dokumentation:** Ergänzende Details, die für die Nutzung und Verwaltung des Projekts relevant sind.
+
+Bitte stelle sicher, dass du regelmäßig im Wiki nachschaust und es bei Bedarf aktualisierst. Dies trägt zur besseren Zusammenarbeit und zum effizienten Management des Projekts bei.
+
+### Übernahme in die öffentlichen Docs
+
+Die öffentlichen Docs können in [GitHub](https://github.com/Keviro/community-server-docs) gefunden werden. Am besten sollten auch hier direkt Änderungen eingereicht werden, damit es nicht zu Vergesslichkeiten kommt.
 
 ## Lizenz
 
