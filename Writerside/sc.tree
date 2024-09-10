@@ -16,12 +16,12 @@
             <toc-element topic="Merge-Request.md"/>
             <toc-element topic="Contributors.md"/>
         </toc-element>
-        <toc-element topic="Wiki.md">
-            <toc-element topic="Zweck-des-Wikis.md"/>
-            <toc-element topic="Inhalte-des-Wikis.md"/>
-            <toc-element topic="Übernahme-in-die-öffentlichen-Docs.md"/>
-        </toc-element>
-        <toc-element topic="Lizenz.md"/>
-        <toc-element topic="Kontakt.md"/>
     </toc-element>
+    <toc-element topic="Wiki.md">
+        <toc-element topic="Zweck-des-Wikis.md"/>
+        <toc-element topic="Inhalte-des-Wikis.md"/>
+        <toc-element topic="Übernahme-in-die-öffentlichen-Docs.md"/>
+    </toc-element>
+    <toc-element topic="Lizenz.md"/>
+    <toc-element topic="Kontakt.md"/>
 </instance-profile>
