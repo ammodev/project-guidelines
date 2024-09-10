@@ -37,6 +37,9 @@ Jedes Projekt sollte der folgenden Struktur folgen:
 
 Um eine konsistente Entwicklung sicherzustellen, gelten für alle Projekte die folgenden Richtlinien:
 
+- Als Sprache für neue Projekte wird ausschließlich `Java` verwendet. `Kotlin` sorgt zwar für kürzeren, aber auch für unübersichtlicheren Code.
+- Für neue Gradle-Projekte muss die Gruppe `dev.slne` verwendet werden. Die Versionsnummern sollten dem Format `X-1.0.0-SNAPSHOT` folgen, wobei `X` stets der aktuell verwendeten Minecraft/Paper-Version entspricht (bspw. `1.21.1-1.0.0-SNAPSHOT`). Dies sorgt für Konsistenz und Kompatibilität in unseren Projekten.
+- Alle Gradle Projekte sollten auf `Kotlin Build Files` basieren. Sprich sie sollten die `build.gradle.kts` und nicht die `build.gradle` verwenden.
 - **Objektorientierte Programmierung (OOP)** wird ausschließlich verwendet.
 - Für **Commands** wird die [CommandAPI](https://commandapi.jorel.dev/) eingesetzt.
 - **Listen, Sets, Maps** und andere Datenstrukturen werden durch [fastutil](https://fastutil.di.unimi.it/) implementiert.
