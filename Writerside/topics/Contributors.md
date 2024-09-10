@@ -1,15 +1,15 @@
 # Contributors
 
-Entwickler*innen, die zu einem Projekt der **SLNE Development Gruppe** beitragen, sind herzlich eingeladen, sich in
-die `CONTRIBUTORS.md` Datei des entsprechenden Projekts einzutragen, um ihre Mitwirkung zu dokumentieren.
+Wenn du zu einem Projekt der **SLNE Development Gruppe** beiträgst, bist du herzlich eingeladen, dich in
+die `CONTRIBUTORS.md` Datei des entsprechenden Projekts einzutragen, um deine Mitwirkung zu dokumentieren.
 
 In dieser Datei kannst du deinen Namen, dein GitLab-Profil und optional eine kurze Beschreibung deiner Rolle oder deiner
-Beiträge vermerken. Es ist eine tolle Möglichkeit, Teil der Entwicklergemeinschaft zu werden und deine Arbeit sichtbar
-zu machen.
+Beiträge vermerken. Dies ist eine großartige Möglichkeit, Teil der Entwicklergemeinschaft zu werden und deine Arbeit
+sichtbar zu machen.
 
 Die `CONTRIBUTORS.md` Datei sollte folgendes Format haben:
 
-``` Markup
+```markup
 # Contributors
 
 Wir möchten allen Personen danken, die zu diesem Projekt beigetragen haben. Eure Unterstützung und euer Engagement sind von unschätzbarem Wert.
@@ -50,9 +50,7 @@ Wir möchten allen Personen danken, die zu diesem Projekt beigetragen haben. Eur
 
 ## Weitere Beiträge
 
-Wir danken auch den zahlreichen anderen Beitragenden, die durch Fehlerberichte, Diskussionen, und kleinere Pull-Requests zu diesem Projekt beigetragen haben.
+Wir danken auch den zahlreichen anderen Beitragenden, die durch Fehlerberichte, Diskussionen und kleinere Pull-Requests zu diesem Projekt beigetragen haben.
 
 Danke an alle, die dieses Projekt zu dem gemacht haben, was es heute ist!
-
-
 ```
