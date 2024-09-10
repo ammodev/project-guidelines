@@ -132,7 +132,7 @@ Alle Projekte in der SLNE Development Gruppe müssen unter der GNU General Publi
 ## Kontakt
 
 Bei Problemen, Fragen oder Vorschlägen könnt ihr euch jederzeit an die Admins wenden:
-- **NotAmmo** (Discord: 180623182594572288 | Email: ammo@slne.dev)
+- **Ammo** (Discord: 180623182594572288 | Email: ammo@slne.dev)
 - **Keviro** (Discord: 201843528618213376 | Email: keviro@slne.dev)
 - **Twisti_Twixi** (Discord: 697395817882845214 | Email: twisti@slne.dev)
 
