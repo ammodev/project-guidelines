@@ -9,8 +9,7 @@ Ziel ist es, dass externe Entwickler zur Verbesserung und Erweiterung des Server
 2. [Richtlinien für Projekte](#richtlinien-für-projekte)
 3. [Git-Richtlinien](#git-richtlinien)
 4. [Kontakt](#kontakt)
-
----
+5. [Lizenz](#lizenz)
 
 ## Projektstruktur
 
@@ -28,8 +27,6 @@ Jedes Projekt sollte der folgenden Struktur folgen:
 4. **Subprojekt Bukkit / Velocity** erstellen:
    - Bukkit und Velocity enthalten jeweils den spezifischen Code, z. B. Listener, Commands, etc.
 
----
-
 ## Richtlinien für Projekte
 
 Um eine konsistente Entwicklung sicherzustellen, gelten für alle Projekte die folgenden Richtlinien:
@@ -43,8 +40,6 @@ Um eine konsistente Entwicklung sicherzustellen, gelten für alle Projekte die f
 - Für das lokale Testen kann [run-task](https://github.com/jpenilla/run-task) verwendet werden.
 - Für die `paper-plugin.yml` wird [plugin-yml](https://github.com/Minecrell/plugin-yml) verwendet.
 
----
-
 ## Git-Richtlinien
 
 Um eine saubere und konfliktfreie Entwicklung zu gewährleisten, gibt es folgende Git-Richtlinien:
@@ -56,14 +51,16 @@ Um eine saubere und konfliktfreie Entwicklung zu gewährleisten, gibt es folgend
 - **Labels** sollten verwendet werden, um den Status eines Issues zu verdeutlichen. Fehlen Labels, wendet euch bitte an die Admins.
 - **Meilensteine** sollten erstellt werden, um den Fortschritt und Status eines Projekts zu kennzeichnen.
 
----
-
 ## Kontakt
 
 Bei Problemen, Fragen oder Vorschlägen könnt ihr euch jederzeit an die Admins wenden:
 - **NotAmmo** (180623182594572288)
 - **Keviro** (201843528618213376)
 - **Twisti_Twixi** (697395817882845214)
+
+## Lizenz
+
+Alle Projekte in der SLNE Development Gruppe müssen unter der GNU General Public License (GPL) v3 veröffentlicht werden. Dies bedeutet, dass alle Modifikationen und abgeleiteten Werke ebenfalls unter der GPL v3 veröffentlicht werden müssen, um sicherzustellen, dass der Quellcode für alle zukünftigen Entwickler offen und frei zugänglich bleibt. Jedes Projekt muss eine Kopie der GPL v3 enthalten
 
 ---
 
