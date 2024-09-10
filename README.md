@@ -50,6 +50,7 @@ Um eine konsistente Entwicklung sicherzustellen, gelten für alle Projekte die f
    - IntelliJ: `surf-codestyle-intellij.xml`
    - Eclipse: `surf-codestyle-eclipse.xml`
    - Andere: `.surf-editorconfig` (Muss in .editorconfig umbenannt werden)
+   - Importieren: ![Importieren des Codestyles in IntelliJ](images/import-codestyle.png)
 
 ## Git-Richtlinien
 
