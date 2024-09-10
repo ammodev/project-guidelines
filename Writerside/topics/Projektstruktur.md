@@ -17,3 +17,22 @@ Jedes Projekt wird nach folgender Struktur aufgebaut:
     - Gemeinsame Funktionen, wie z. B. ein Usercache, sollten hier initialisiert werden, um doppelten Code zu vermeiden.
 4. **Subprojekt Paper / Velocity** erstellen:
     - Paper und Velocity enthalten jeweils den spezifischen Code, z. B. Listener, Commands etc.
+
+```mermaid
+flowchart TD
+   A[Hauptprojekt] --> B[Subprojekt API]
+   A --> C["Subprojekt Core (optional)"]
+   A --> D[Subprojekt Paper]
+   A --> E[Subprojekt Velocity]
+   B --> B1[Interfaces]
+   B1 --> B2[SLNE Development Implementations]
+   B --> B3["API-Methoden (Completable Futures)"]
+   C --> C1[Gemeinsamer Code für Paper und Velocity]
+   C1 --> C2[Usercache und andere gemeinsame Funktionen]
+   D --> D1[Paper-spezifischer Code]
+   D1 --> D2[Listener]
+   D1 --> D3[Commands]
+   E --> E1[Velocity-spezifischer Code]
+   E1 --> E2[Listener]
+   E1 --> E3[Commands]
+```
