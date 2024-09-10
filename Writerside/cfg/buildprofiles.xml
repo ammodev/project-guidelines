@@ -3,11 +3,20 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables>
+        <color-preset>vivid</color-preset>
+        <primary-color>deep-ocean</primary-color>
+        <custom-favicons>logo.png</custom-favicons>
+    </variables>
     <build-profile instance="sc">
         <variables>
             <noindex-content>true</noindex-content>
         </variables>
+        <footer>
+            <copyright>SLNE Development 2021-2024 | Vielen Dank, dass ihr Teil von SLNE Development seid und den CastCrafter Community Server
+                unterstützt! Gemeinsam können wir das Spielerlebnis für die gesamte Community verbessern!
+            </copyright>
+        </footer>
     </build-profile>
 
 </buildprofiles>
