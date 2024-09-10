@@ -45,6 +45,10 @@ Um eine konsistente Entwicklung sicherzustellen, gelten für alle Projekte die f
 - **Shading** wird durch das [Shadow Plugin](https://gradleup.com/shadow/introduction/) implementiert, wobei auf richtiges Relocating geachtet werden muss.
 - Für das lokale Testen kann [run-task](https://github.com/jpenilla/run-task) verwendet werden.
 - Für die `paper-plugin.yml` wird [plugin-yml](https://github.com/Minecrell/plugin-yml) verwendet.
+- Als Codestyle wird eine Abänderung des Google Codestyles verwendet. Dieser ist in der Datei `surf-codestyle.xml` zu finden.
+   - IntelliJ: `surf-codestyle-intellij.xml`
+   - Eclipse: `surf-codestyle-eclipse.xml`
+   - Andere: `.surf-editorconfig` (Muss in .editorconfig umbenannt werden)
 
 ## Git-Richtlinien
 
