@@ -5,11 +5,15 @@ Willkommen zur **SLNE Development Open-Source Gruppe**! Diese Gruppe dient als z
 Ziel ist es, dass externe Entwickler zur Verbesserung und Erweiterung des Servers beitragen können. Diese README enthält alle notwendigen Informationen, um sicherzustellen, dass jeder Entwickler die richtige Struktur und Richtlinien befolgt.
 
 ## Inhaltsverzeichnis
-1. [Projektstruktur](#projektstruktur)
-2. [Richtlinien für Projekte](#richtlinien-für-projekte)
+
+1. [Einführung](#einführung)
+2. [Projektstruktur](#projektstruktur)
 3. [Git-Richtlinien](#git-richtlinien)
+   1. [Commits](#commits)
+   2. [Branches](#branches)
 4. [Kontakt](#kontakt)
 5. [Lizenz](#lizenz)
+
 
 ## Projektstruktur
 
@@ -51,16 +55,59 @@ Um eine saubere und konfliktfreie Entwicklung zu gewährleisten, gibt es folgend
 - **Labels** sollten verwendet werden, um den Status eines Issues zu verdeutlichen. Fehlen Labels, wendet euch bitte an die Admins.
 - **Meilensteine** sollten erstellt werden, um den Fortschritt und Status eines Projekts zu kennzeichnen.
 
-## Kontakt
+### Commits
 
-Bei Problemen, Fragen oder Vorschlägen könnt ihr euch jederzeit an die Admins wenden:
-- **NotAmmo** (180623182594572288)
-- **Keviro** (201843528618213376)
-- **Twisti_Twixi** (697395817882845214)
+Für alle Commits in den Projekten der **SLNE Development Gruppe** soll der **Conventional Commits Standard** gemäß [https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/) verwendet werden. Dieser Standard sorgt für eine klare und konsistente Commit-Historie, die verständlich und leicht zu verfolgen ist. Jeder Commit sollte nach einem festen Format erfolgen, das die Art der Änderung deutlich beschreibt und einen Kontext liefert.
+
+Das Format eines Commit-Messages lautet:
+```
+<type>[optional scope]: <description>
+[optional body]
+[optional footer(s)]
+```
+
+Beispiele für Commit-Nachrichten:
+- `feat(user-management): add friend system`
+- `fix(server-crash): resolve issue with player authentication`
+- `chore(deps): update fastutil to latest version`
+- `refactor(core): simplify caching logic for player data`
+- `docs(readme): update installation instructions`
+
+Diese Struktur hilft, den Zweck jeder Änderung sofort zu verstehen und erleichtert das Erstellen von Release-Notes oder Changelogs.
+
+[IntelliJ Plugin](https://plugins.jetbrains.com/plugin/13389-conventional-commit)
+[VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
+
+### Branches
+
+Branches in den Projekten der **SLNE Development Gruppe** sollen nach einem konsistenten Schema benannt werden, ähnlich wie bei Commit-Messages, um Klarheit und Nachvollziehbarkeit zu gewährleisten. Jeder Branch-Name sollte die Art der Änderung beschreiben und sich auf ein spezifisches Issue beziehen, sodass Änderungen direkt zu einer Anweisung oder einem Problem zugeordnet werden können.
+
+Das Format für Branch-Namen lautet:
+```
+<type>/<issue-number>-<short-description>
+```
+
+Dabei steht `<type>` für den Typ der Änderung, ähnlich wie bei Commit-Messages (`feat`, `fix`, `chore`, etc.), `<issue-number>` bezieht sich auf die Nummer des entsprechenden Issues, und `<short-description>` gibt eine kurze, prägnante Beschreibung der Änderung.
+
+Beispiele für Branch-Namen:
+- `feat/42-add-friend-system`
+- `fix/108-player-auth-crash`
+- `chore/55-update-dependencies`
+- `refactor/75-optimize-user-cache`
+- `docs/33-update-readme`
+
+Durch diese Struktur ist sofort ersichtlich, welchem Issue der Branch zugeordnet ist und welche Art von Änderung vorgenommen wird. Dies erleichtert die Zusammenarbeit und das Code-Review erheblich.
 
 ## Lizenz
 
 Alle Projekte in der SLNE Development Gruppe müssen unter der GNU General Public License (GPL) v3 veröffentlicht werden. Dies bedeutet, dass alle Modifikationen und abgeleiteten Werke ebenfalls unter der GPL v3 veröffentlicht werden müssen, um sicherzustellen, dass der Quellcode für alle zukünftigen Entwickler offen und frei zugänglich bleibt. Jedes Projekt muss eine Kopie der GPL v3 enthalten
+
+## Kontakt
+
+Bei Problemen, Fragen oder Vorschlägen könnt ihr euch jederzeit an die Admins wenden:
+- **NotAmmo** (Discord: 180623182594572288 | Email: ammo@slne.dev)
+- **Keviro** (Discord: 201843528618213376 | Email: keviro@slne.dev)
+- **Twisti_Twixi** (Discord: 697395817882845214 | Email: twisti@slne.dev)
 
 ---
 
