@@ -17,7 +17,6 @@ Ziel ist es, dass externe Entwickler zur Verbesserung und Erweiterung des Server
 5. [Lizenz](#lizenz)
 6. [Kontakt](#kontakt)
 
-
 ## Projektstruktur
 
 Externe Entwickler dürfen **keine neuen Projekte oder Gruppen erstellen**. Ideen für neue Projekte müssen mit den Admins abgesprochen werden, bevor mit der Entwicklung begonnen wird.
@@ -51,6 +50,7 @@ Um eine konsistente Entwicklung sicherzustellen, gelten für alle Projekte die f
    - Eclipse: `surf-codestyle-eclipse.xml`
    - Andere: `.surf-editorconfig` (Muss in .editorconfig umbenannt werden)
    - Importieren: ![Importieren des Codestyles in IntelliJ](images/import-codestyle.png)
+   - Setzen (Muss nicht jedes mal Importiert werden, nur beim 1. Mal): ![Setzen des Codestyles in IntelliJ](images/set-codestyle.png)
 
 ## Git-Richtlinien
 
